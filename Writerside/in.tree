@@ -14,7 +14,6 @@
     <toc-element topic="Overview.md"/>
     <toc-element topic="How-to.md"/>
     <toc-element topic="API-quickstart.md">
-        <toc-element topic="API-reference.md"/>
         <toc-element topic="Bug-report.md"/>
     </toc-element>
 </instance-profile>

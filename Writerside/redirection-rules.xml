@@ -10,4 +10,8 @@
         <description>Created after removal of "first topic" from First Instance</description>
         <accepts>first-topic.html</accepts>
     </rule>
+    <rule id="22ca99bb">
+        <description>Created after removal of "API reference" from First Instance</description>
+        <accepts>API-reference.html</accepts>
+    </rule>
 </rules>
