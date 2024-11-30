@@ -9,6 +9,7 @@ permissions:
   contents: read
   id-token: write
   pages: write
+  secrets: read
 
 env:
   INSTANCE: 'Writerside/in'
