@@ -13,7 +13,7 @@ permissions:
 env:
   INSTANCE: 'Writerside/in'
   DOCKER_VERSION: '243.21565'
-  ALGOLIA_APP_NAME: '9B6UU71H5H'
+  ALGOLIA_APP_NAME: 'pyhwpx'
   ALGOLIA_INDEX_NAME: 'MY_INDEX'
   CONFIG_JSON_PRODUCT: 'IN'
   CONFIG_JSON_VERSION: '1.0'
@@ -122,11 +122,11 @@ jobs:
         run: unzip -O UTF-8 -qq "artifacts/${{ needs.build.outputs.algolia_artifact }}" -d algolia-indexes
       - name: Update Algolia Index
         run: |
-          if [ -z "${{ secrets.ALGOLIA_KEY }}" ]; then
+          if [ -z "${{ env.ALGOLIA_KEY }}" ]; then
             echo "ALGOLIA_KEY secret is not set in GitHub Secrets"
             exit 1
           else
-            env "algolia-key=${{ secrets.ALGOLIA_KEY }}" java -jar /opt/builder/help-publication-agent.jar \
+            env "algolia-key=${{ env.ALGOLIA_KEY }}" java -jar /opt/builder/help-publication-agent.jar \
             update-index \
             --application-name ${{ env.ALGOLIA_APP_NAME }} \
             --index-name ${{ env.ALGOLIA_INDEX_NAME }} \
