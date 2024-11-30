@@ -41,6 +41,12 @@ jobs:
           echo "artifact=$ARTIFACT" >> $GITHUB_OUTPUT
           echo "algolia_artifact=$ALGOLIA_ARTIFACT" >> $GITHUB_OUTPUT
 
+          # Debugging output - print environment variables and outputs
+          echo "Environment variables set:"
+          cat $GITHUB_ENV
+          echo "GitHub Output variables set:"
+          cat $GITHUB_OUTPUT
+
       - name: Build docs using Writerside Docker builder
         uses: JetBrains/writerside-github-action@v4
         with:
@@ -55,5 +61,5 @@ jobs:
           path: |
             artifacts/${{ env.ARTIFACT }}
             artifacts/report.json
-#            artifacts/${{ env.ALGOLIA_ARTIFACT }}
+          #            artifacts/${{ env.ALGOLIA_ARTIFACT }}
           retention-days: 7
