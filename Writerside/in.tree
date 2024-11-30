@@ -8,6 +8,13 @@
 
     <toc-element topic="starter.md">
         <toc-element topic="How-to.md"/>
+        <toc-element topic="Overview.md"/>
+        <toc-element topic="Reference.md"/>
+        <toc-element topic="Section-Starting-Page.topic"/>
+        <toc-element topic="Tutorial.md"/>
     </toc-element>
-    <toc-element topic="Overview.md"/>
+    <toc-element topic="API-quickstart.md">
+        <toc-element topic="API-reference.md"/>
+        <toc-element topic="Bug-report.md"/>
+    </toc-element>
 </instance-profile>
