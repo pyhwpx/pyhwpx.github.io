@@ -6,8 +6,7 @@
                  name="pyhwpx Documentation"
                  start-page="starter.md">
 
-    <toc-element topic="starter.md">
-    </toc-element>
+    <toc-element topic="starter.md"/>
     <toc-element topic="Tutorial.md"/>
     <toc-element topic="Section-Starting-Page.topic"/>
     <toc-element topic="Reference.md"/>
