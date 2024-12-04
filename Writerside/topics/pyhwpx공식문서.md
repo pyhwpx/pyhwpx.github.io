@@ -1,4 +1,4 @@
-# pyhwpx Documentation
+# pyhwpx 공식문서(작성 예정)
 
 <!--Writerside adds this topic when you create a new documentation project.
 You can use it as a sandbox to play with Writerside features, and remove it from the TOC when you don't need it anymore.-->
@@ -77,3 +77,7 @@ You can also always email us at [writerside@jetbrains.com](mailto:writerside@jet
         <a href="https://www.jetbrains.com/help/writerside/configure-search.html">Configure Search</a>
     </category>
 </seealso>
+
+![](Container-3.png)
+
+pyhwpx 공식문서의 페이지내 검색은 <a href="https://www.algolia.com/">algolia</a>를 통해 무료로 서비스하고 있습니다.
