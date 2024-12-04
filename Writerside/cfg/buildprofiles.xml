@@ -4,6 +4,7 @@
                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <build-profile instance="in">
         <variables>
+            <custom-favicons>face.ico</custom-favicons>
             <noindex-content>false</noindex-content>
             <algolia-id>K8R83SUNKP</algolia-id>
             <algolia-index>pyhwpx</algolia-index>
