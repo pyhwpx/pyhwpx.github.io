@@ -3,13 +3,13 @@
 <buildprofiles xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/build-profiles.xsd"
                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 
-    <variables></variables>
+<!--    <variables></variables>-->
     <build-profile instance="in">
         <variables>
             <noindex-content>false</noindex-content>
-            <algolia-id>${env.ALGOLIA_ID}</algolia-id>
-            <algolia-index>${ALGOLIA_INDEX}</algolia-index>
-            <algolia-api-key>${ALGOLIA_API_KEY}</algolia-api-key>
+            <algolia-id>K8R83SUNKP</algolia-id>
+            <algolia-index>pyhwpx</algolia-index>
+            <algolia-api-key>bad93b8f09fdbb4d7696dec14294c15d</algolia-api-key>
         </variables>
     </build-profile>
 
