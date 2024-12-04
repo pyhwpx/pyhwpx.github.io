@@ -13,8 +13,8 @@ permissions:
 env:
   INSTANCE: 'Writerside/in'
   DOCKER_VERSION: '243.21565'
-  ALGOLIA_APP_NAME: 'K8R83SUNKP'
-  ALGOLIA_INDEX_NAME: 'in'
+  ALGOLIA_APP_NAME: 'pyhwpx'
+  ALGOLIA_INDEX_NAME: 'pyhwpx'
   CONFIG_JSON_PRODUCT: 'in'
   CONFIG_JSON_VERSION: 'master'
 
