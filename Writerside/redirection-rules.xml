@@ -14,4 +14,36 @@
         <description>Created after removal of "API reference" from First Instance</description>
         <accepts>API-reference.html</accepts>
     </rule>
+    <rule id="4126f56a">
+        <description>Created after removal of "Bug report" from pyhwpx Documentation</description>
+        <accepts>Bug-report.html</accepts>
+    </rule>
+    <rule id="1b00b271">
+        <description>Created after removal of "pyhwpx 공식문서(작성 예정)" from pyhwpx Documentation</description>
+        <accepts>pyhwpx공식문서.html</accepts>
+    </rule>
+    <rule id="7cdf548">
+        <description>Created after removal of "Tutorial" from pyhwpx Documentation</description>
+        <accepts>Tutorial.html</accepts>
+    </rule>
+    <rule id="26ade10c">
+        <description>Created after removal of "Section Starting Page" from pyhwpx Documentation</description>
+        <accepts>Section-Starting-Page.html</accepts>
+    </rule>
+    <rule id="27bd0d40">
+        <description>Created after removal of "Reference" from pyhwpx Documentation</description>
+        <accepts>Reference.html</accepts>
+    </rule>
+    <rule id="26e14e74">
+        <description>Created after removal of "Overview" from pyhwpx Documentation</description>
+        <accepts>Overview.html</accepts>
+    </rule>
+    <rule id="4096cf06">
+        <description>Created after removal of "How to" from pyhwpx Documentation</description>
+        <accepts>How-to.html</accepts>
+    </rule>
+    <rule id="19214664">
+        <description>Created after removal of "API quickstart" from pyhwpx Documentation</description>
+        <accepts>API-quickstart.html</accepts>
+    </rule>
 </rules>
