@@ -3,7 +3,7 @@
         SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
 
 <instance-profile id="in"
-                 name="pyhwpx Documentation"
+                 name="pyhwpx Documentation (ver.0.41.2)"
                  start-page="pyhwpx공식문서.md">
 
     <toc-element topic="pyhwpx공식문서.md"/>
