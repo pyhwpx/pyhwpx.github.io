@@ -15,3 +15,67 @@ Donwload &lt;resource src="sample.hwp"/&gt; and open it.
 </tab>
 </tabs>
 
+writerside의 semantic elements는 현재 총 77개다.
+
+## warning
+
+```XML
+<warning>If you delete a user, all their transactions will also be erased from the database.</warning>
+```
+
+<warning>If you delete a user, all their transactions will also be erased from the database.</warning>
+
+## resource
+
+```XML
+<resource src="sample.hwp">샘플문서 다운로드</resource>
+```
+
+<resource src="sample.hwp">샘플문서 다운로드</resource>
+
+## img
+
+```XML
+<img src="001.png" alt="001.png"/>
+```
+
+<img src="001.png" alt="001.png"/>
+
+## i
+
+```XML
+<i>ideomatic & italic</i>
+```
+
+<i>ideomatic & italic</i>
+
+## a
+
+```XML
+<a href="Quickstart.md">quickstart</a>
+```
+
+<a href="Quickstart.md">quickstart</a>
+
+## api-doc : pass
+
+## api-endpoint : pass
+
+## api-schema : pass
+
+## b
+
+```XML
+<b>bold</b>
+```
+
+<b>bold</b> and not
+
+## br
+
+```XML
+줄바꿈<br></br>(break)
+```
+
+줄바꿈<br></br>(break)
+

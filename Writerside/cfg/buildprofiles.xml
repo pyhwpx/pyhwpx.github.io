@@ -4,6 +4,7 @@
                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <build-profile instance="in">
         <variables>
+            <locale-code>ko-KR</locale-code>
             <custom-favicons>face.ico</custom-favicons>
             <primary-color>aqua</primary-color>
             <noindex-content>false</noindex-content>
