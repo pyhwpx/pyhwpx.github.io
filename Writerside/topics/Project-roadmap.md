@@ -1,3 +1,0 @@
-# Project roadmap
-
-Start typing here...

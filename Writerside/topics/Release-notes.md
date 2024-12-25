@@ -1,3 +1,0 @@
-# Release notes
-
-Start typing here...

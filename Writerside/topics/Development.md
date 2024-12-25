@@ -1,3 +1,0 @@
-# Development
-
-Start typing here...

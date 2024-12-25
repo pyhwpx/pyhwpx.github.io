@@ -1,3 +1,0 @@
-# Installation
-
-Start typing here...

@@ -1,3 +1,0 @@
-# Governance
-
-Start typing here...

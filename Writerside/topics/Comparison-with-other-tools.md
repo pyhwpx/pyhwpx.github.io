@@ -1,3 +1,0 @@
-# Comparison with other tools
-
-Start typing here...

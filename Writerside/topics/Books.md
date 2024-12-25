@@ -1,3 +1,0 @@
-# Books
-
-Start typing here...

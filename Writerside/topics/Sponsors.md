@@ -1,3 +1,0 @@
-# Sponsors
-
-Start typing here...

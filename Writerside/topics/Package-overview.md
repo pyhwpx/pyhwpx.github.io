@@ -1,3 +1,0 @@
-# Package overview
-
-Start typing here...

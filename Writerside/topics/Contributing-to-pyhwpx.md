@@ -1,3 +1,0 @@
-# Contributing to pyhwpx
-
-Start typing here...
