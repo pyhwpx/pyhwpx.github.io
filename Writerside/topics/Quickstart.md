@@ -14,7 +14,8 @@
 from pyhwpx import Hwp
 hwp = Hwp()  # 가장 최근에 활성화한 한/글 창에 연결합니다. 한/글이 실행되어 있지 않다면 새 창을 생성합니다.
 hwp.open("FileName.hwp")  # 현재 작업디렉토리의 `FileName.hwp` 문서를 불러옵니다.
-hwp.open(r"C:\path\to\file.hwpx")  # 경로 문자열에 역슬래시를 사용하기 위해서는 따옴표 왼쪽에 `r`을 붙여줘야 합니다.
+hwp.open(r"C:\path\to\file.hwpx")  # 경로 문자열에 역슬래시를 사용하기 위해서는 따옴표 왼쪽에 
+`r`을 붙여줘야 합니다.
 hwp.Quit()  # 한/글을 종료합니다.
 ```
 
@@ -59,7 +60,7 @@ hwp.create_table(3, 5, treat_as_char=True)  # 3행5열의 표 생성(글자처�
 ```
 
 > `pyhwpx`의 메서드 명명규칙은 특이하게 `PascalCase`와 `snake_case` 두 가지를 사용하고 있습니다. ~~무식해 보이는 이런 명명규칙에도~~
-> ~~나름의 기준이 있기는 한데,~~ 한/글 API의 기능을 그대로
+> ~~나름의 기준이 있기는 한데,~~ 한/글 API 의 기능을 그대로
 > 사용한 경우 파스칼케이스를, API 외에 임의로 추가했거나, 커스텀 매개변수나 기능을 부여한 경우에는 스네이크케이스를 쓰고 있습니다.  
 > 향후 버전에는 둘 다 사용 가능하게(혹은 한 쪽으로 통일하는 방향으로?) 리팩토링할 예정입니다.
 
@@ -74,11 +75,11 @@ hwp.create_table(3, 5, treat_as_char=True)  # 3행5열의 표 생성(글자처�
 
 ```Python
 pse = hwp.HParameterSet.HParaShape  # 비어있는 문단모양 파라미터셋 생성
-hwp.HAction.GetDefault("ParagraphShape", pset.HSet)  # 파라미터셋의 값들을 현재값으로 초기화 
+hwp.HAction.GetDefault("ParagraphShape", pset.HSet)  # 현재값으로 파라미터셋 초기화 
 pset.AlignType = hwp.HAlign("Center")  # 정렬 방식 : 가운데정렬
 pset.RightMargin = hwp.PointToHwpUnit(20.0)  # 문단 왼쪽 여백 10pt
 pset.LeftMargin = hwp.PointToHwpUnit(20.0)  # 문단 오른쪽 여백 10pt
-hwp.HAction.Execute("ParagraphShape", pset.HSet)  # 변경한 파라미터셋의 값들을 문서에 적용
+hwp.HAction.Execute("ParagraphShape", pset.HSet)  # 변경 파라미터셋을 문서에 적용
 ```
 
 사실 위의 코드는 아래아한글의 스크립트매크로를 복사한 후 문법만 파이썬에 맞게 변경했을 뿐입니다.

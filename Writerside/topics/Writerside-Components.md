@@ -21,7 +21,8 @@ writerside의 semantic elements는 현재 총 77개다.
 
 ```XML
 
-<warning>If you delete a user, all their transactions will also be erased from the database.</warning>
+<warning>If you delete a user, all their transactions 
+    will also be erased from the database.</warning>
 ```
 
 <warning>If you delete a user, all their transactions will also be erased from the database.</warning>
@@ -48,7 +49,7 @@ writerside의 semantic elements는 현재 총 77개다.
 
 ```XML
 
-<i>ideomatic & italic</i>
+<i>ideomatic &amp; italic</i>
 ```
 
 <i>ideomatic & italic</i>
@@ -56,8 +57,9 @@ writerside의 semantic elements는 현재 총 77개다.
 ## a
 
 ```XML
-
-<a href="Quickstart.md" summary="Show this text in the tooltip">Some link</a>
+<a href="Quickstart.md" summary="Show this text in the tooltip">
+    Some link
+</a>
 ```
 
 <a href="Quickstart.md" summary="Show this text in the tooltip">Some link</a>
@@ -74,11 +76,10 @@ writerside의 semantic elements는 현재 총 77개다.
 ## br
 
 ```XML
-줄바꿈
-<br></br>(break)
+<p>줄바꿈<br/>(break)</p>
 ```
 
-줄바꿈<br></br>(break)
+<p>줄바꿈<br/>(break)</p>
 
 ## seealso
 
@@ -128,7 +129,8 @@ writerside의 semantic elements는 현재 총 77개다.
 ## tip
 
 ```XML
-<tip>Alternatively, you can change the settings directly in the configuration file.</tip>
+<tip>Alternatively, you can change the settings 
+    directly in the configuration file.</tip>
 ```
 
 <tip>Alternatively, you can change the settings directly in the configuration file.</tip>
@@ -137,8 +139,8 @@ writerside의 semantic elements는 현재 총 77개다.
 
 ```XML
 <note>
-    Use a note for important information that the reader should be aware of,
-    like known issues or limitations.
+    Use a note for important information that the reader 
+    should be aware of, like known issues or limitations.
 </note>
 ```
 
@@ -152,7 +154,11 @@ writerside의 semantic elements는 현재 총 77개다.
 ```XML
 <tldr>
     <p>Shortcut: <shortcut>Ctrl+Space</shortcut></p>
-    <p>Configure: <ui-path>Settings / Preferences | Editor | Code Completion</ui-path></p>
+    <p>Configure: 
+        <ui-path>
+        Settings / Preferences | Editor | Code Completion
+    </ui-path>
+    </p>
 </tldr>
 ```
 
@@ -172,7 +178,8 @@ writerside의 semantic elements는 현재 총 77개다.
 ## ui-path
 
 ```XML
-<p>From the main menu, select <ui-path>File | New | Project</ui-path>.</p>
+<p>From the main menu, select <ui-path>File | New | Project</ui-path>.
+</p>
 ```
 
 <p>From the main menu, select <ui-path>File | New | Project</ui-path>.</p>
@@ -193,11 +200,6 @@ writerside의 semantic elements는 현재 총 77개다.
     adipiscing elit, sed do eiusmod tempor
     incididunt ut labore et dolore magna
     aliqua.
-</p>
-<p>
-    Ut enim ad minim veniam, quis nostrud
-    exercitation ullamco laboris nisi ut
-    aliquip ex ea commodo consequat.
 </p>
 ```
 
@@ -282,14 +284,18 @@ writerside의 semantic elements는 현재 총 77개다.
 ## link-summary
 
 ```XML
+<div>
 <link-summary rel="some-paragraph"/>
 <p id="some-paragraph">Use this paragraph as a link summary</p>
+</div>
 ```
 
 ## card-summary
 
 ```XML
-<card-summary>Use card summaries to provide context for cards.</card-summary>
+<card-summary>
+    Use card summaries to provide context for cards.
+</card-summary>
 ```
 
 <card-summary>Use card summaries to provide context for cards.</card-summary>
