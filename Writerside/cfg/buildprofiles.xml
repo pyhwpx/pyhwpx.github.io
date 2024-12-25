@@ -10,6 +10,18 @@
             <algolia-id>K8R83SUNKP</algolia-id>
             <algolia-index>pyhwpx</algolia-index>
             <algolia-api-key>bad93b8f09fdbb4d7696dec14294c15d</algolia-api-key>
+            <algolia-show-logo>true</algolia-show-logo>
+            <enable-contribution>true</enable-contribution>
         </variables>
+        <footer>
+            <social type="blog" href="https://wikidocs.net/blog/@ilco/">pyhwpx Blog(wikidocs)</social>
+            <social type="blog" href="https://blog.naver.com/pythonrpa">pyhwpx Blog(naver)</social>
+            <social type="blog" href="https://employeecoding.tistory.com/">pyhwpx Blog(tistory)</social>
+            <social type="youtube" href="https://www.youtube.com/@pyhwpx">pyhwpx on Youtube</social>
+            <link href="https://inf.run/ChCF">pyhwpx Webinar</link>
+            <link href="https://wikidocs.net/book/8956">pyhwpx Cookbook</link>
+            <link href="mailto:martinii.fun@gmail.com">Send e-mail</link>
+            <copyright>일상의코딩</copyright>
+        </footer>
     </build-profile>
 </buildprofiles>
