@@ -17,6 +17,7 @@
             <resizable-sidebar>true</resizable-sidebar>
             <web-root>https://pyhwpx.github.io/</web-root>
             <webmaster>martinii.fun@gmail.com</webmaster>
+
         </variables>
         <footer>
             <social type="blog" href="https://wikidocs.net/blog/@ilco/">ilco's Blog</social>
