@@ -1,3 +1,0 @@
-# Community
-
-Start typing here...

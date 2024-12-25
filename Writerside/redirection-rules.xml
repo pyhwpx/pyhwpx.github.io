@@ -46,4 +46,114 @@
         <description>Created after removal of "API quickstart" from pyhwpx Documentation</description>
         <accepts>API-quickstart.html</accepts>
     </rule>
+    <rule id="6e530a8b">
+        <description>Created after removal of "Contribute" from pyhwpx Documentation</description>
+        <accepts>Contribute.html</accepts>
+    </rule>
+    <rule id="212ca091">
+        <description>Created after removal of "Community" from pyhwpx Documentation</description>
+        <accepts>Community.html</accepts>
+    </rule>
+    <rule id="189e06d">
+        <description>Created after removal of "Getting started" from pyhwpx Documentation</description>
+        <accepts>Getting-started.html</accepts>
+    </rule>
+    <rule id="d9d4e2f">
+        <description>Created after removal of "Tutorials" from pyhwpx Documentation</description>
+        <accepts>Tutorials.html</accepts>
+    </rule>
+    <rule id="6de35f5c">
+        <description>Created after removal of "Installation" from pyhwpx Documentation</description>
+        <accepts>Installation.html</accepts>
+    </rule>
+    <rule id="22b44193">
+        <description>Created after removal of "Package overview" from pyhwpx Documentation</description>
+        <accepts>Package-overview.html</accepts>
+    </rule>
+    <rule id="1a070500">
+        <description>Created after removal of "Getting started tutorials" from pyhwpx Documentation</description>
+        <accepts>Getting-started-tutorials.html</accepts>
+    </rule>
+    <rule id="7c2bb6fb">
+        <description>Created after removal of "What kind of actions pyhwpx handle?" from pyhwpx Documentation
+        </description>
+        <accepts>What-kind-of-actions-pyhwpx-handle.html</accepts>
+    </rule>
+    <rule id="37799dd6">
+        <description>Created after removal of "How do I read and write hwp(or hwpx) file?" from pyhwpx Documentation
+        </description>
+        <accepts>How-do-I-read-and-write-hwp-or-hwpx-file.html</accepts>
+    </rule>
+    <rule id="47831d88">
+        <description>Created after removal of "Comparison with other tools" from pyhwpx Documentation</description>
+        <accepts>Comparison-with-other-tools.html</accepts>
+    </rule>
+    <rule id="4cbe052a">
+        <description>Created after removal of "Community tutorials" from pyhwpx Documentation</description>
+        <accepts>Community-tutorials.html</accepts>
+    </rule>
+    <rule id="7af7d43f">
+        <description>Created after removal of "Books" from pyhwpx Documentation</description>
+        <accepts>Books.html</accepts>
+    </rule>
+    <rule id="7925cb86">
+        <description>Created after removal of "Videos" from pyhwpx Documentation</description>
+        <accepts>Videos.html</accepts>
+    </rule>
+    <rule id="7af36985">
+        <description>Created after removal of "Cheat sheet" from pyhwpx Documentation</description>
+        <accepts>Cheat-sheet.html</accepts>
+    </rule>
+    <rule id="78b41fd7">
+        <description>Created after removal of "User Guide" from pyhwpx Documentation</description>
+        <accepts>User-Guide.html</accepts>
+    </rule>
+    <rule id="4f07265c">
+        <description>Created after removal of "API reference" from pyhwpx Documentation</description>
+        <accepts>API-reference.html</accepts>
+    </rule>
+    <rule id="5c82a935">
+        <description>Created after removal of "Development" from pyhwpx Documentation</description>
+        <accepts>Development.html</accepts>
+    </rule>
+    <rule id="3517edb6">
+        <description>Created after removal of "Contributing to pyhwpx" from pyhwpx Documentation</description>
+        <accepts>Contributing-to-pyhwpx.html</accepts>
+    </rule>
+    <rule id="1923342f">
+        <description>Created after removal of "Release notes" from pyhwpx Documentation</description>
+        <accepts>Release-notes.html</accepts>
+    </rule>
+    <rule id="7b0c9be9">
+        <description>Created after removal of "Documentation" from pyhwpx Documentation</description>
+        <accepts>Documentation.html</accepts>
+    </rule>
+    <rule id="4db0337d">
+        <description>Created after removal of "About pyhwpx" from pyhwpx Documentation</description>
+        <accepts>About-pyhwpx.html</accepts>
+    </rule>
+    <rule id="7e06d669">
+        <description>Created after removal of "Project roadmap" from pyhwpx Documentation</description>
+        <accepts>Project-roadmap.html</accepts>
+    </rule>
+    <rule id="2381efb4">
+        <description>Created after removal of "Governance" from pyhwpx Documentation</description>
+        <accepts>Governance.html</accepts>
+    </rule>
+    <rule id="499b28f3">
+        <description>Created after removal of "Team" from pyhwpx Documentation</description>
+        <accepts>Team.html</accepts>
+    </rule>
+    <rule id="4fa8bb3a">
+        <description>Created after removal of "Sponsors" from pyhwpx Documentation</description>
+        <accepts>Sponsors.html</accepts>
+    </rule>
+    <rule id="762369b2">
+        <description>Created after removal of "Citing and logo" from pyhwpx Documentation</description>
+        <accepts>Citing-and-logo.html</accepts>
+    </rule>
+    <rule id="761bc9e2">
+        <description>Created after removal of "About me" from pyhwpx Documentation</description>
+        <accepts>About-me.html</accepts>
+    </rule>
 </rules>
