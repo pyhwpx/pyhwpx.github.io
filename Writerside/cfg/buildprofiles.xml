@@ -9,7 +9,7 @@
             <primary-color>aqua</primary-color>
             <noindex-content>false</noindex-content>
             <algolia-id>K8R83SUNKP</algolia-id>
-            <algolia-index>pyhwpx</algolia-index>
+            <algolia-index>pyhwpx_index</algolia-index>
             <algolia-api-key>bad93b8f09fdbb4d7696dec14294c15d</algolia-api-key>
             <algolia-show-logo>true</algolia-show-logo>
             <enable-contribution>true</enable-contribution>
