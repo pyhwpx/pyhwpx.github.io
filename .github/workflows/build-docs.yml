@@ -16,7 +16,7 @@ env:
   ALGOLIA_APP_NAME: 'K8R83SUNKP'
   ALGOLIA_INDEX_NAME: 'pyhwpx_index'
   CONFIG_JSON_PRODUCT: 'IN'
-  CONFIG_JSON_VERSION: 'main'
+  CONFIG_JSON_VERSION: 'master'
 
 jobs:
   build:
