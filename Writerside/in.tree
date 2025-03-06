@@ -7,6 +7,9 @@
                   start-page="Quickstart.md">
 
     <toc-element topic="Quickstart.md"/>
+    <toc-element topic="Troubleshooting.md"/>
+    <toc-element topic="Tutorial.md"/>
+    <toc-element topic="User-personas.md"/>
     <toc-element topic="API-Reference.md">
         <toc-element topic="Hwp-Methods.md"/>
         <toc-element topic="Starter.md"/>
